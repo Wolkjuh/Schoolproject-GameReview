@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+<?php
+require "connections.php";
+
+$connection = db_connect();
+
+?>
+
 <header>
     <section class="navigatie">
         <article class="logo">
@@ -19,6 +27,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Reviews</a></li>
                     <li><a href="#">Games</a></li>
+                    <li><a href="#">Merch</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav> 

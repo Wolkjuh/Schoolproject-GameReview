@@ -1,51 +1,53 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*, html {
+	margin: 0;
+	padding: 0;
 }
 
 @media only screen and (min-width: 1280px) {
 
-    /* Header */
-        
-    .navigatie {
-        height: 80px;
-        width: 100%;
-        background-color: #1b1b1d;
-        overflow: hidden;
-    }
-        
-    .logo img {
-        float: left;
-        cursor: pointer;
-        width: 250px;
-        height: 50px;
-        padding: 20px 16px;
-    }
-        
-    .navigatiebalk ul {
-        float: right;
-        list-style-type: none;
-        margin: 0;
-        padding: 14px;
-    }
-          
-    .navigatiebalk li {
-        float: left;
-    }
-          
-    .navigatiebalk li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 20px 16px;
-        text-decoration: none;
-    }
-          
-    .navigatiebalk li a:hover {
-        color: rgb(102, 119, 193);
-    }
-        
-    .navigatiebalk li a {
-        transition: all 0.3s ease 0s;
-    }
+/* Header */
+	
+.navigatie {
+	height: 80px;
+	width: 100%;
+	background-color: #2b2d36;
+	overflow: hidden;
+}
+	
+.logo img {
+	float: left;
+	cursor: pointer;
+	width: 250px;
+	height: 50px;
+	padding: 20px 16px;
+}
+	
+.navigatiebalk ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 14px;
+}
+	  
+.navigatiebalk li {
+	float: left;
+}
+	  
+.navigatiebalk li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+	  
+.navigatiebalk li a:hover {
+	color: rgb(102, 119, 193);
+}
+	
+.navigatiebalk li a {
+	transition: all 0.3s ease 0s;
+}
 }
