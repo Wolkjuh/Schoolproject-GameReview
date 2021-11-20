@@ -9,34 +9,21 @@
 </head>
 <body>
 
-<?php
-require "connections.php";
-
-$connection = db_connect();
-
-?>
-
-<header>
-    <section class="navigatie">
-        <article class="logo">
-            <a href="index.php"><img src="assets/images/logo.jpeg" alt="Logo"></a>
-        </article>
-        <article class="navigatiebalk">
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Merch</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav> 
-        </article>  
-    </section>
+    <?php
+    include_once 'header.php';
+    ?>
 
     <main>
+
+    <section class="welkomsbericht">
+        <?php
+            if (isset($_SESSION["useruid"])) {
+                echo "<p>Welkom " . $_SESSION["useruid"] . "!</p>";
+            } 
+        ?>
+    </section>
         
     </main>
-</header>
+
 </body>
 </html>
