@@ -84,7 +84,6 @@ body {
 	background-color: #fff;
 	padding: 5px;
 	width: 200px;
-	text-shadow: 1px 1px;
 }
 
 .signup-class h1 {
@@ -93,6 +92,7 @@ body {
 	padding: 10px;
 	border-bottom: 1px solid silver;
 	color: #fff;
+	margin-bottom: 3%;
 }
 
 .signup-class form {
@@ -133,7 +133,6 @@ body {
 	background-color: #fff;
 	padding: 5px;
 	width: 200px;
-	text-shadow: 1px 1px;
 }
 
 .login-class h1 {
@@ -141,6 +140,7 @@ body {
 	text-transform: uppercase;
 	padding: 10px;
 	border-bottom: 1px solid silver;
+	margin-bottom: 3%;
 	color: #fff;
 }
 
@@ -154,6 +154,17 @@ body {
 	color: white;
 	text-align: center;
 	margin: 2%;
+}
+
+/* Reviews */
+
+.fortnite {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border: 1px white solid;
+	border-radius: 10px;
+	width: 300px;
 }
 
 }
