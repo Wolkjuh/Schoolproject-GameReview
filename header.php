@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets\fonts\css\all.css">
+    <link rel="stylesheet" href="assets/fonts/css/all.css">
+    
+
 </head>
 <body>
     
@@ -20,7 +22,13 @@
                 <nav>
                     <ul class="nav__links">
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">Reviews</a></li>
+                        <?php
+                            if (isset($_SESSION["useruid"])) {
+                                echo "<li><a href='reviewplaats.php'>Reviews</a></li>";
+                            } else {
+                                echo "<li><a href='reviews.php'>Reviews</a></li>";
+                            }
+                        ?>
                         <li><a href="#">Games</a></li>
                         <li><a href="#">Merch</a></li>
                         <li><a href="#">Contact</a></li>

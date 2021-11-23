@@ -156,15 +156,4 @@ body {
 	margin: 2%;
 }
 
-/* Reviews */
-
-.fortnite {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	border: 1px white solid;
-	border-radius: 10px;
-	width: 300px;
-}
-
 }
