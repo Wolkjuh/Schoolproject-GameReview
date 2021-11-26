@@ -11,6 +11,7 @@
     <title></title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fonts/css/all.css">
+    <script src="https://use.fontawesome.com/a6f0361695.js"></script>
     
 
 </head>
@@ -24,13 +25,12 @@
                         <li><a href="index.php">Home</a></li>
                         <?php
                             if (isset($_SESSION["useruid"])) {
-                                echo "<li><a href='reviewplaats.php'>Reviews</a></li>";
-                            } else {
                                 echo "<li><a href='reviews.php'>Reviews</a></li>";
-                            }
+                            } 
                         ?>
-                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Rating</a></li>
                         <li><a href="#">Merch</a></li>
+                        <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact</a></li>
                         <?php
                             if (isset($_SESSION["useruid"])) {
