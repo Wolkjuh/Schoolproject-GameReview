@@ -41,16 +41,16 @@
         <div class="input-group">
         <span class="input-group-addon"><i class="fas fa-gamepad"></i></span>
         <select class="form-control" id="rate">
-            <option value="1star"></option>
-            <option value="2stars"></option>
-            <option value="3stars"></option>
-            <option value="4stars"></option>
-            <option value="5stars"></option>
-            <option value="5stars"></option>
-            <option value="5stars"></option>
-            <option value="5stars"></option>
-            <option value="5stars"></option>
-            <option value="5stars"></option>
+            <option value="1star">The Witcher III: Wild Hunt</option>
+            <option value="2stars">Grand Theft Auto V</option>
+            <option value="3stars">The Elder Scrolls V: Skyrim</option>
+            <option value="4stars">The Legend Of Zelda: Breath of the Wild</option>
+            <option value="5stars">Assassin's Creed Valhalla</option>
+            <option value="5stars">Minecraft</option>
+            <option value="5stars">Red Dead Redemption 2</option>
+            <option value="5stars">Fallout 3</option>
+            <option value="5stars">Metal Gear Solid V: The Phantom Pain</option>
+            <option value="5stars">Ghost of Tsushima</option>
             </select>
             </div>
         </div>
