@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-*, html {
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -21,6 +21,10 @@ body {
 	background-color: #2a2c32;
 	overflow: hidden;
 }
+
+.navigatie img {
+	cursor: pointer;
+}
 	
 .navigatiebalk ul {
 	display: flex;
@@ -28,7 +32,9 @@ body {
 	align-content: center;
 	list-style-type: none;
 	margin: 0;
-	padding: 14px;
+	padding-top: 10px;
+	font-size: 1rem;
+	font-weight: bold;
 }
 
 	  
@@ -52,13 +58,75 @@ body {
 	transition: all 0.3s ease 0s;
 }
 
+/* Footer */
+
+.footer-basic {
+	margin-top: 3%;
+	color:#fff;
+  }
+  
+  .footer-basic ul {
+	padding-top:0;
+	list-style:none;
+	text-align:center;
+	font-size:18px;
+	line-height:1.6;
+	margin-bottom:0;
+  }
+  
+  .footer-basic li {
+	padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+	color:inherit;
+	text-decoration:none;
+	opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+	opacity:1;
+  }
+  
+  .footer-basic .social {
+	text-align:center;
+	padding-bottom:25px;
+  }
+
+  .social {
+	  padding-top: 2%;
+  }
+  
+  .footer-basic .social > a {
+	font-size:24px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #ccc;
+	margin:0 8px;
+	color:#fff;
+	opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+	opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+	margin-top:15px;
+	text-align:center;
+	font-size:13px;
+	color:#aaa;
+	margin-bottom:5px;
+  }
+
 /* Signup */
 
-.signup-class {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.signup-class {	
+	margin: 4% auto;
 	background: #2a2c32;
 	width: 400px;
 	border-radius: 10px;
@@ -104,10 +172,7 @@ body {
 /* Login */
 
 .login-class {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin: 9% auto;
 	background: #2a2c32;
 	width: 400px;
 	border-radius: 10px;
@@ -160,11 +225,10 @@ body {
 /* Rating */
 
 .table__opkomende__games {
-	position: absolute;
-	top: 20%;
-	left: 10%;
+	float: left;
+	margin: 5% 0 auto 5%;
 	border-collapse: collapse;
-    margin: 25px 0;
+	border: 1px rgb(59, 59, 59) solid;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
@@ -173,13 +237,14 @@ body {
 
 .table__opkomende__games thead tr {
     background-color: #2a2c32;
-    color: #ffffff;
+    color: #fff;
     text-align: left;
 }
 
 .table__opkomende__games th,
 .table__opkomende__games td {
     padding: 12px 15px;
+	color: #fff;
 }
 
 .table__opkomende__games tbody tr {
@@ -187,30 +252,19 @@ body {
 }
 
 .table__opkomende__games tbody {
-	background-color: #fff;
+	background-image: url(../images/halo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .table__opkomende__games tbody tr:last-of-type {
     border-bottom: 2px solid #04055f;
 }
 
-.halo-image-table {
-	position: absolute;
-	top: 50%;
-	left: 10%;
-	height: 300px;
-	border: 2px black solid;
-	box-shadow: 20px 0 20px rgba(0, 0, 0, 0.15);
-	cursor: pointer;
-
-}
-
 .table__topgames {
-	position: absolute;
-	top: 20%;
-	left: 50%;
+	margin: 5% 0 0 50%;
 	border-collapse: collapse;
-    margin: 25px 0;
+	border: 1px rgb(59, 59, 59) solid;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
@@ -226,6 +280,7 @@ body {
 .table__topgames th,
 .table__topgames td {
     padding: 12px 15px;
+	color: #fff;
 }
 
 .table__topgames tbody tr {
@@ -233,7 +288,9 @@ body {
 }
 
 .table__topgames tbody {
-	background-color: #fff;
+	background-image: url(../images/csgo.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .table__topgames tbody tr:last-of-type {
@@ -245,8 +302,24 @@ body {
 .slideshow-container {
 	max-width: 1000px;
 	position: relative;
-	margin: auto;
+	margin: auto auto auto 30%;
   }
+
+.index__tekst {
+	float: left;
+}
+
+.index__tekst p {
+	color: #fff;
+	font-size: 2.3rem;
+	font-weight: bold;
+	margin: 15% auto auto 10%;
+	text-shadow: 2px 2px black;
+}
+
+.slideshow-container img {
+	height: 500px;
+}
 
   .mySlides {
 	border: 2px black solid;
@@ -312,18 +385,18 @@ body {
   
   .fade {
 	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
+	-webkit-animation-duration: 3s;
 	animation-name: fade;
-	animation-duration: 1.5s;
+	animation-duration: 3s;
   }
   
   @-webkit-keyframes fade {
-	from {opacity: .4}
+	from {opacity: .7}
 	to {opacity: 1}
   }
   
   @keyframes fade {
-	from {opacity: .4}
+	from {opacity: .7}
 	to {opacity: 1}
   }
 

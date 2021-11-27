@@ -12,6 +12,11 @@
             ?>
         </section>
 
+        <section class="index__tekst">
+            <p>Welkom bij Gamestars!</p><br>
+            <p>Wij geven DE rating voor <br>jouw favoriete game!</p>
+        </section>
+
         <div class="slideshow-container">
 
         <div class="mySlides fade">

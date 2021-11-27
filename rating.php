@@ -2,14 +2,7 @@
     include_once 'header.php';
 ?>
 
-<style>
-    body {
-        overflow: hidden;
-    }
-</style>
-
 <main>
-
     <table class="table__opkomende__games">
         <thead>
             <tr>
@@ -40,8 +33,6 @@
             </tr>
         </tbody>
     </table>
-
-    <img class="halo-image-table" src="assets/images/halo.jpg" alt="">
 
     <table class="table__topgames">
         <thead>
@@ -126,6 +117,8 @@
             </tr>
         </tbody>
     </table>
+
+
 
 </main>
 
