@@ -28,13 +28,13 @@
                                 echo "<li><a href='reviews.php'>Reviews</a></li>";
                             } 
                         ?>
-                        <li><a href="#">Rating</a></li>
+                        <li><a href="rating.php">Rating</a></li>
                         <li><a href="#">Merch</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact</a></li>
                         <?php
                             if (isset($_SESSION["useruid"])) {
-                                echo "<li><a href='profile.php'>Profiel</a></li>";
+                                echo "<li><a href='#'>Profiel</a></li>";
                                 echo "<li><a href='includes/logout.inc.php'>Log Out</a></li>";
                             } else {
                                 echo "<li><a href='signup.php'>Registreer</a></li>";

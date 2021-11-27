@@ -29,7 +29,7 @@
         <div class="col-md-4 inputGroupContainer">
         <div class="input-group">
         <span class="input-group-addon"><i class="fa fa-globe"></i></span>
-        <input  name="URL" placeholder="https://google.com" class="form-control"  type="url">
+        <input  name="date" type="date" placeholder="https://google.com" class="form-control"  type="url">
             </div>
         </div>
         </div>
@@ -41,6 +41,7 @@
         <div class="input-group">
         <span class="input-group-addon"><i class="fas fa-gamepad"></i></span>
         <select class="form-control" id="rate">
+            <option value="1star"></option>
             <option value="1star">The Witcher III: Wild Hunt</option>
             <option value="2stars">Grand Theft Auto V</option>
             <option value="3stars">The Elder Scrolls V: Skyrim</option>
