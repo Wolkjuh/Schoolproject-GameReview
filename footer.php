@@ -8,13 +8,11 @@
 			</div>
 			<div class="footer-left">
 				<p class="footer-links">
-					<a class="link-1" href="#">Home</a>
+					<a class="link-1" href="index.php">Home</a>
 
-					<a href="#">Bart</a>
+					<a href="#">Blog</a>
 
-					<a href="#">Riki</a>
-
-					<a href="#">Thomas</a>
+					<a href="#">Contact</a>
 
 					<a href="#">Terms</a>
 

@@ -12,7 +12,7 @@
 
 <div class="index__tekst">
 	<p>Welkom bij Gamestars!<br><br>
-		DE rating voor jouw<br> favoriete game!		
+		De rating voor jouw<br> favoriete game!		
 	</p>
 </div>
 
