@@ -293,7 +293,7 @@ body {
 }
 
 .table__topgames {
-	margin: 5% 0 0 50%;
+	margin: 5% 0 5% 50%;
 	border-collapse: collapse;
 	border: 1px rgb(59, 59, 59) solid;
     font-size: 0.9em;
