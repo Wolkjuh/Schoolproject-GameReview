@@ -1,3 +1,11 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="C:\Users\thoma\OneDrive\Documenten\ala 2 merch\images\styles.css">
+</head>
+
 <?php
     include_once 'header.php';
 ?>
