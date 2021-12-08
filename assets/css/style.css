@@ -226,6 +226,91 @@ body {
 	}
   }
 
+/* Merch */
+
+.shirt1{
+    position: relative;
+    left: 25vw;
+    top: 20vh;
+}
+.trui1{
+    position: relative;
+    left: 25vw;
+    top: 15vh;
+}
+
+.shirt2{
+    float: right;
+    position: relative;
+    right: 24vw;
+    bottom: 33vh;
+}
+
+.trui2{
+    float: right;
+    position: relative;
+    right: 30vw;
+    bottom: 39vh;
+}
+.artikel1{
+    position: relative;
+    left: 38vw;
+    bottom: 5vh;
+   font-size: 1vw;
+    color: white;
+}
+input{
+    background-color: white;
+    
+}
+
+button{
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.artikel2{
+    float: right;
+    position: relative;
+    right: 56vw;
+    top: 13vh;
+   font-size: 1vw;
+    color: white;
+}
+
+select{
+    background-color: white;
+}
+option{
+    background-color: white;
+}
+
+::placeholder{
+    color: black;
+}
+
+.artikel3{
+    position: relative;
+    left: 70vw;
+    bottom: 58vh;
+   font-size: 1vw;
+    color: white;
+}
+
+.artikel4{
+    position: relative;
+    left: 70vw;
+    bottom: 41vh;
+   font-size: 1vw;
+    color: white;
+}
+
+.winkelmandje{
+    position: relative;
+    left: 92vw;
+    bottom: 127vh;
+}
+
 /* Signup */
 
 .signup-class {	
