@@ -33,7 +33,7 @@
                             } 
                         ?>
                         <li><a href="rating.php">Rating</a></li>
-                        <li><a href="#">Merch</a></li>
+                        <li><a href="merch.php">Merch</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact</a></li>
                         <?php
