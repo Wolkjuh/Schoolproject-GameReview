@@ -25,7 +25,7 @@
             <article class="navigatiebalk">
                 <nav>
                     <ul class="nav__links">
-                        <img src="assets/images/logo.jpg" alt="" height="60px">
+                        <img src="assets/images/logo.jpg" alt="" width="400px" height="60px">
                         <li><a href="index.php">Home</a></li>
                         <?php
                             if (isset($_SESSION["useruid"])) {
@@ -34,7 +34,6 @@
                         ?>
                         <li><a href="rating.php">Rating</a></li>
                         <li><a href="merch.php">Merch</a></li>
-                        <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact</a></li>
                         <?php
                             if (isset($_SESSION["useruid"])) {
