@@ -25,25 +25,31 @@
             <article class="navigatiebalk">
                 <nav>
                     <ul class="nav__links">
-                        <img src="assets/images/logo.jpg" alt="" width="400px" height="60px">
-                        <li><a href="index.php">Home</a></li>
-                        <?php
-                            if (isset($_SESSION["useruid"])) {
-                                echo "<li><a href='reviews.php'>Reviews</a></li>";
-                            } 
-                        ?>
-                        <li><a href="rating.php">Rating</a></li>
-                        <li><a href="merch.php">Merch</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <?php
-                            if (isset($_SESSION["useruid"])) {
-                                echo "<li><a href='#'>Profiel</a></li>";
-                                echo "<li><a href='includes/logout.inc.php'>Log Out</a></li>";
-                            } else {
-                                echo "<li><a href='signup.php'>Registreer</a></li>";
-                                echo "<li><a href='login.php'>Log In</a></li>";
-                            }
-                        ?>
+                        <div class="topnav">
+                            <div id="navLinks">
+                                <li><a href="index.php">Home</a></li>
+                                <?php
+                                    if (isset($_SESSION["useruid"])) {
+                                        echo "<li><a href='reviews.php'>Reviews</a></li>";
+                                    } 
+                                ?>
+                                <li><a href="rating.php">Rating</a></li>
+                                <li><a href="merch.php">Merch</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <?php
+                                    if (isset($_SESSION["useruid"])) {
+                                        echo "<li><a href='#'>Profiel</a></li>";
+                                        echo "<li><a href='includes/logout.inc.php'>Log Out</a></li>";
+                                    } else {
+                                        echo "<li><a href='signup.php'>Registreer</a></li>";
+                                        echo "<li><a href='login.php'>Log In</a></li>";
+                                    }
+                                ?>
+                            </div>
+                            <a href="javascript:void(0);" class="burgerIcon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
                     </ul>
                 </nav> 
             </article>  

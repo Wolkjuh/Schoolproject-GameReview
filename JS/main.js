@@ -12,3 +12,12 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 3000);
 } 
+
+function myFunction() {
+  var x = document.getElementById("burgerIcon");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
