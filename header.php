@@ -30,12 +30,12 @@
                                 <li><a href="index.php">Home</a></li>
                                 <?php
                                     if (isset($_SESSION["useruid"])) {
-                                        echo "<li><a href='reviews.php'>Reviews</a></li>";
+                                        echo "<li><a href='reviews.php'>Review</a></li>";
                                     } 
                                 ?>
                                 <li><a href="rating.php">Rating</a></li>
                                 <li><a href="merch.php">Merch</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                                 <?php
                                     if (isset($_SESSION["useruid"])) {
                                         echo "<li><a href='#'>Profiel</a></li>";
@@ -50,6 +50,7 @@
                                 <i class="fa fa-bars"></i>
                             </a>
                         </div>
+                        <li class="afrekenen"><a href="#">Afrekenen</a></li>
                     </ul>
                 </nav> 
             </article>  
