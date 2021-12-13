@@ -1317,13 +1317,12 @@ body {
 /* Rating */
 
 .table__opkomende__games {
-	float: left;
-	margin: 5% 0 auto 5%;
+	margin: 5% 2%;
 	border-collapse: collapse;
 	border: 1px rgb(59, 59, 59) solid;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
+    min-width: 100px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -1354,13 +1353,17 @@ body {
 }
 
 .table__topgames {
-	margin: 5% 0 5% 50%;
+	margin: 5% 0.5%;
 	border-collapse: collapse;
 	border: 1px rgb(59, 59, 59) solid;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
+    min-width: 100px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.release_datum {
+	display:  none;
 }
 
 .table__topgames thead tr {
