@@ -1069,9 +1069,7 @@ body {
 }
 
 .merchandise {
-	display: flex;
-	justify-content: center;
-	margin: 3% auto;
+	margin: auto;
 }
 
 .niet-img1  {
