@@ -46,7 +46,7 @@
                                     }
                                 ?>
                             </div>
-                            <a href="javascript:void(0);" class="burgerIcon" onclick="myFunction()">
+                            <a href="javascript:void(0);" class="burgerIcon" onclick="respNav()">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </div>

@@ -13,8 +13,8 @@ function showSlides() {
   setTimeout(showSlides, 3000);
 } 
 
-function myFunction() {
-  var x = document.getElementById("burgerIcon");
+function respNav() {
+  var x = document.getElementById("navLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
