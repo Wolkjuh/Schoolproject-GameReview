@@ -45,12 +45,12 @@
                                         echo "<li><a href='login.php'>Log In</a></li>";
                                     }
                                 ?>
+                                <li class="afrekenen"><a href="#">Afrekenen</a></li>
                             </div>
                             <a href="javascript:void(0);" class="burgerIcon" onclick="respNav()">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </div>
-                        <li class="afrekenen"><a href="#">Afrekenen</a></li>
                     </ul>
                 </nav> 
             </article>  

@@ -36,6 +36,19 @@
 
         <div class="pinfo">Laat een bericht achter:</div>
         
+        <div class="form-group">
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-align-center"></i></i></span>
+        <select class="form-control" id="rate">
+            <option value="1star">Ik heb een vraag</option>
+            <option value="1star">Ik heb een opmerking</option>
+            <option value="2stars">Ik wil een game aanraden</option>
+            <option value="3stars">Ik wil een compliment geven</option>
+            </select>
+            </div>
+        </div>
+        </div>
 
         <div class="form-group">
         <div class="col-md-4 inputGroupContainer">
